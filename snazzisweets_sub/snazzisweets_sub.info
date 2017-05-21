@@ -1,4 +1,4 @@
-name = SnazziSweets Sub-Theme (CDN)
+name = SnazziSweets Sub-Theme
 description = Subtheme holding custom content for SnazziSweets; based on Bootstrap..
 core = 7.x
 base theme = bootstrap

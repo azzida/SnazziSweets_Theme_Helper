@@ -2,6 +2,7 @@
  * Place your custom styles here.
  */
 
+/*Set the logo and brand sizes*/
 a.logo img{
 	width: 64px; 
 }
@@ -10,21 +11,59 @@ a.navbar-brand{
 	line-height: 64px;
 }
 
+/*Sets the line height of the top menu*/
 @media(min-width:1200px){
 	.navbar-nav li a{
 		line-height: 64px;
 	}
 }
 
+/*Set site color*/
+body {
+  bacground: #E3DBD0;
+  background: linear-gradient(#E3DBD0, #FFFFFF);
+}
 
-
-
+/*Center the carousel images on homepage*/
 .carousel-inner img {
   margin: auto;
 }
 
 .row-buffer { 
 	margin-bottom: 20px;
-    border-bottom: 1px solid;
+  border-bottom: 1px solid;
 }
+
+/*Copyright block aligned-right*/
+li.snazzi-footer {
+  list-style: none;
+	float: right;
+}
+
+/*Main Navbar background and foreground color*/
+header#navbar {
+  width:100%;
+  max-width: none;
+  background-color: #C3BDAF;
+}
+
+h1.page-header {
+  color: #131516;
+}
+
+header#navbar a {
+  color: #FFFFFF;
+}
+
+header#navbar a.active{
+  color: #555;
+}
+
+footer.footer {
+  background-color: #C3BDAF;
+  color: #FFFFFF;
+}
+
+
+
 

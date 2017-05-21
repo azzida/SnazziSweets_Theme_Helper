@@ -30,14 +30,14 @@ body {
 }
 
 .row-buffer { 
-	margin-bottom: 20px;
+  margin-bottom: 20px;
   border-bottom: 1px solid;
 }
 
 /*Copyright block aligned-right*/
 li.snazzi-footer {
   list-style: none;
-	float: right;
+  float: right;
 }
 
 /*Main Navbar background and foreground color*/
@@ -47,23 +47,28 @@ header#navbar {
   background-color: #C3BDAF;
 }
 
+/*Welcome to SnazziSweets*/
 h1.page-header {
   color: #131516;
   text-align: center;
   font-size: 8rem;
 }
 
+/*Menu items in navbar*/
 header#navbar a {
-  color: #FFFFFF;
+  color: #131516;
+  font-size: 3rem;
 }
 
+/*Menu items in navbar (active)*/
 header#navbar a.active{
   color: #555;
 }
 
+/*Footer which includes copyright*/
 footer.footer {
   background-color: #C3BDAF;
-  color: #FFFFFF;
+  color: #131516;
 }
 
 

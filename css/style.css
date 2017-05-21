@@ -49,6 +49,8 @@ header#navbar {
 
 h1.page-header {
   color: #131516;
+  text-align: center;
+  font-size: 8rem;
 }
 
 header#navbar a {

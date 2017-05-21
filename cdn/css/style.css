@@ -1,0 +1,30 @@
+/**
+ * Place your custom styles here.
+ */
+
+a.logo img{
+	width: 64px; 
+}
+ 
+a.navbar-brand{
+	line-height: 64px;
+}
+
+@media(min-width:1200px){
+	.navbar-nav li a{
+		line-height: 64px;
+	}
+}
+
+
+
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.row-buffer { 
+	margin-bottom: 20px;
+    border-bottom: 1px solid;
+}
+

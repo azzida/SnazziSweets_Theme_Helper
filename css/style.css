@@ -20,55 +20,61 @@ a.navbar-brand{
 
 /*Set site color*/
 body {
-  bacground: #E3DBD0;
-  background: linear-gradient(#E3DBD0, #FFFFFF);
+	bacground: #E3DBD0;
+	background: linear-gradient(#E3DBD0, #FFFFFF);
 }
 
 /*Center the carousel images on homepage*/
 .carousel-inner img {
-  margin: auto;
+	margin: auto;
 }
 
 .row-buffer { 
-  margin-bottom: 20px;
-  border-bottom: 1px solid;
-}
-
-/*Copyright block aligned-right*/
-li.snazzi-footer {
-  list-style: none;
-  float: right;
+	margin-bottom: 20px;
+	border-bottom: 1px solid;
 }
 
 /*Main Navbar background and foreground color*/
 header#navbar {
-  width:100%;
-  max-width: none;
-  background-color: #C3BDAF;
+	width:100%;
+	max-width: none;
+	background-color: #C3BDAF;
 }
 
 /*Welcome to SnazziSweets*/
 h1.page-header {
-  color: #131516;
-  text-align: center;
-  font-size: 8rem;
+	color: #131516;
+	text-align: center;
+	font-size: 8rem;
 }
 
 /*Menu items in navbar*/
 header#navbar a {
-  color: #131516;
-  font-size: 3rem;
+	color: #131516;
+	font-size: 3rem;
 }
 
 /*Menu items in navbar (active)*/
 header#navbar a.active{
-  color: #555;
+	color: #555;
+}
+
+/*SnazziSweets brand*/
+header#navbar a.name {
+	font-size: 4rem;
 }
 
 /*Footer which includes copyright*/
 footer.footer {
-  background-color: #C3BDAF;
-  color: #131516;
+	background-color: #C3BDAF;
+	color: #131516;
+}
+
+/*Copyright block aligned-right*/
+li.snazzi-footer {
+	list-style: none;
+	float: right;
+	font-size: 2rem;
 }
 
 

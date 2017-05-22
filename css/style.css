@@ -82,6 +82,23 @@ li.snazzi-footer {
 	font-size: 2rem;
 }
 
+/*Fancybox hidden content for Cookie Jar*/
+div.views-field-body div.snazzi-body {
+	display: none;
+}
+div.views-field-body div.snazzi-price {
+	display: none;
+}
+
+/*Banner items in Cookie Jar*/
+div.pane-cookie-jar-banner div.view-content > div{
+	display: inline-block;
+	padding: 0 5px 0 5px;
+}
+body.page-cookies div.pane-cookie-jar-banner {
+	text-align: center;
+}
+
 /*Cookie Jar Description styles*/
 div.views-field-title span.field-content {
 	font-size: 4rem;
@@ -99,6 +116,6 @@ div.snazzi-price-list li.views-row {
 }
 
 /*JQUERY Added Classes*/
-article.snazzi-cookie-focused {
+article.snazzi-focused {
 	box-shadow: 0px 0px 5px 5px #131516;
 }

@@ -82,13 +82,8 @@ li.snazzi-footer {
 	font-size: 2rem;
 }
 
-/*Fancybox hidden content for Cookie Jar*/
-div.views-field-body div.snazzi-body {
-	display: none;
-}
-div.views-field-body div.snazzi-price {
-	display: none;
-}
+
+
 
 /*Banner items in Cookie Jar*/
 div.pane-cookie-jar-banner div.view-content > div{
@@ -99,23 +94,60 @@ body.page-cookies div.pane-cookie-jar-banner {
 	text-align: center;
 }
 
-/*Cookie Jar Description styles*/
-div.views-field-title span.field-content {
-	font-size: 4rem;
-	font-weight: 700;
+
+
+
+
+/*Banner items in Comfy Cupcake*/
+body.page-cupcakes div.pane-snazzi-comfy-cupcake-banner {
+	text-align: center;
 }
-/*Cookie Jar Prices styles*/
-div.snazzi-price-list div.field-content{
-	font-size: 4rem;
-	font-weight: 700;
-	
+body.page-cupcakes div.pane-snazzi-comfy-cupcake-banner div.view-content > div{
+	display: inline-block;
+	padding: 0 5px 0 5px;
 }
 
-div.snazzi-price-list li.views-row {
+
+
+
+
+/*COMMON Fancybox hidden content for Cookies & Comfy Cupcake*/
+div.vertical-align {
+	display: flex;
+	align-items: center;
+}
+
+div.views-field-body div.snazzi-title,
+div.views-field-body div.snazzi-photo, 
+div.views-field-body div.snazzi-body,
+div.views-field-body div.snazzi-price {
+	display: none;
+}
+
+div.snazzi-title {
+	text-align: center;
+    font-size: 5rem;
+}
+div.snazzi-photo {
+	text-align: center;
+}
+
+div.snazzi-body p {
+	font-size: 3rem;
+	font-weight: 700;
+}
+div.snazzi-price li {
 	list-style: none;
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+
+
+/*A Piece of Cake Styles*/
+div.view-snazzi-cake-carousel div.carousel-inner {
+	text-align: center;
 }
 
 /*JQUERY Added Classes*/
-article.snazzi-focused {
-	box-shadow: 0px 0px 5px 5px #131516;
-}
+

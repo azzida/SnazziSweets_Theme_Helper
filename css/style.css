@@ -120,7 +120,8 @@ div.vertical-align {
 div.views-field-body div.snazzi-title,
 div.views-field-body div.snazzi-photo, 
 div.views-field-body div.snazzi-body,
-div.views-field-body div.snazzi-price {
+div.views-field-body div.snazzi-price,
+div.views-field-body div.snazzi-cart {
 	display: none;
 }
 

@@ -26,7 +26,7 @@ body {
 
 /*Set overall font size*/
 header, footer, .container {
-	font-size: 3rem;
+	font-size: 1.5rem;
 }
 
 /*Center the carousel images on homepage*/
@@ -117,9 +117,15 @@ div.vertical-align {
 	align-items: center;
 }
 
-div.view-cookie-jar-banner div.view-content > div {
+div.view-display-id-cookie_jar_cart_contents div.view-content > div {
 	display: none;
 }
+
+div.snazzi-details-title h2 {
+  margin: 0;
+}
+
+
 
 div.snazzi-title {
 	text-align: center;

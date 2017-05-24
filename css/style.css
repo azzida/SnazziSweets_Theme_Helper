@@ -42,6 +42,9 @@ div.region-sidebar-first  h2.block-title:before{
 div.region-sidebar-first  div.snazzi-email-link {
 	font-size: 2rem;
 }
+ul#snazzi-cart{
+	float:right;
+}
 
 
 

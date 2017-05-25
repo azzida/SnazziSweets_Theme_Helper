@@ -140,36 +140,36 @@ div.view-display-id-cookie_jar_cart_contents div.view-content > div {
 	display: none;
 }
 
-div.snazzi-details-title h2 {
-  margin: 0;
+
+/*COMMON Fancybox details when expanded*/
+/*START Flexbox overall layout*/
+div.fancybox-inner div.node-snazzi-cookie {
+	display: inline-flex;
+}
+div.fancybox-inner div.node-snazzi-cookie div.snazzi-details-row-title {
+	flex-basis: 15rem;
+}
+div.fancybox-inner div.node-snazzi-cookie div.snazzi-details-row-body {
+	flex-basis: 60rem;
+}
+div.fancybox-inner div.node-snazzi-cookie div.snazzi-details-row-addtocart {
+	margin-left: 15rem;
+}
+/*END Flexbox overall layout*/
+
+/*START Flexbox AddToCart layout*/
+div.fancybox-inner div.node-snazzi-cookie div.snazzi-details-row-addtocart form > div {
+	display: flex;
+	flex-direction: column;
+}
+/*END Flexbox AddToCart layout*/
+
+div.fancybox-inner div.node-snazzi-cookie div.snazzi-details-row-title div.snazzi-details-title h2 {
+	margin: 0;
+	font-size: 1.5rem;
 }
 
 
-
-div.snazzi-title {
-	text-align: center;
-    font-size: 5rem;
-}
-div.snazzi-photo {
-	text-align: center;
-}
-
-div.snazzi-body p {
-	font-size: 3rem;
-	font-weight: 700;
-}
-div.snazzi-price {
-	text-align: center
-}
-div.snazzi-price li {
-	list-style: none;
-	font-size: 4rem;
-	font-weight: 700;
-}
-div.snazzi-cart {
-	text-align: center;
-    font-size: 2rem;
-}
 
 
 

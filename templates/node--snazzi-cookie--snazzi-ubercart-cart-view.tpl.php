@@ -88,13 +88,13 @@
     </div>
   </div>
   <div class="snazzi-details-row-body">
-    <div class="snazzi-details-image">
+    <div class="snazzi-details-image col-xs-3">
       <?php print render($content['uc_product_image']); ?>
     </div>
-    <div class="snazzi-details-body">
+    <div class="snazzi-details-body col-xs-6">
       <?php print render($content['body']); ?>
     </div>
-    <div class="snazzi-details-price">
+    <div class="snazzi-details-price col-xs-3">
       <?php print render($content['display_price']); ?>
     </div>
   </div>

@@ -1,0 +1,50 @@
+/*Set the logo and brand sizes*/
+a.logo img{
+	width: 64px; 
+}
+ 
+a.navbar-brand{
+	line-height: 64px;
+}
+
+/*Sets the line height of the top menu*/
+@media(min-width:1200px){
+	.navbar-nav li a{
+		line-height: 64px;
+	}
+}
+
+ul#snazzi-cart{
+	float:right;
+}
+
+/*Main Navbar background and foreground color*/
+header#navbar {
+	width:100%;
+	max-width: none;
+	background-color: #C3BDAF;
+}
+
+/*Welcome to SnazziSweets*/
+h1.page-header {
+	color: #131516;
+	text-align: center;
+	font-size: 8rem;
+  
+}
+
+/*Menu items in navbar*/
+header#navbar a {
+	color: #131516;
+	font-size: 3rem;
+}
+
+/*Menu items in navbar (active)*/
+header#navbar a.active{
+	color: #555;
+}
+
+/*SnazziSweets brand*/
+header#navbar a.name {
+	font-size: 4rem;
+}

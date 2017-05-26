@@ -1,0 +1,28 @@
+
+/*Set front page body*/
+body.front article.node-page {
+  text-align: center;
+}
+body.front article.node-page div.field-name-body p {
+  font-size: 2rem;
+}
+body.front article.node-page div.field-name-body p span.snazzi-brand {
+  font-size: 3rem;
+}
+
+/*Slide homepage banner*/
+div.slick-slide div.slide__content {
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+/*Center the carousel images on homepage*/
+.carousel-inner img {
+	margin: auto;
+}
+
+.row-buffer { 
+	margin-bottom: 20px;
+	border-bottom: 1px solid;
+}
+

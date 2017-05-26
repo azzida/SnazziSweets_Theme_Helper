@@ -1,0 +1,14 @@
+/**
+ * Place your custom styles here.
+ */
+
+/*Set site color*/
+body {
+	bacground: #E3DBD0;
+	background: linear-gradient(#E3DBD0, #FFFFFF);
+}
+
+/*Set overall font size*/
+header, footer, .container {
+	font-size: 1.5rem;
+}

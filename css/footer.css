@@ -1,0 +1,15 @@
+
+
+/*Footer which includes copyright*/
+footer.footer {
+	background-color: #C3BDAF;
+	color: #131516;
+}
+
+/*Copyright block aligned-right*/
+li.snazzi-footer {
+	list-style: none;
+	float: right;
+	font-size: 2rem;
+}
+

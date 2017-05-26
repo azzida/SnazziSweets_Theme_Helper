@@ -38,7 +38,7 @@ div.slick-slide div.slide__content {
 /*Set site color*/
 body {
 	bacground: #E3DBD0;
-	background: linear-gradient(#E3DBD0, #FFFFFF);
+	background: linear-gradient(#FFB6D4, #EAD0F4);
 }
 
 /*Set overall font size*/
@@ -54,8 +54,9 @@ div.region-sidebar-first {
 
 section#block-snazzisweets-base-snazzi-contact {
     box-shadow: 0px 0px 10px black;
-    padding: 10px;
-    border-radius: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #F4F3C1;
 }    
 section#block-snazzisweets-base-snazzi-contact div.snazzi-email-title,
 section#block-snazzisweets-base-snazzi-contact div.snazzi-phone-title {
@@ -101,7 +102,7 @@ ul#snazzi-cart{
 header#navbar {
 	width:100%;
 	max-width: none;
-	background-color: #C3BDAF;
+	background-color: #C1D1F3;
 }
 
 /*Welcome to SnazziSweets*/
@@ -130,8 +131,9 @@ header#navbar a.name {
 
 /*Footer which includes copyright*/
 footer.footer {
-	background-color: #C3BDAF;
+	background-color: #C1D1F3;
 	color: #131516;
+	border: 4px solid #719CF2;
 }
 
 /*Copyright block aligned-right*/

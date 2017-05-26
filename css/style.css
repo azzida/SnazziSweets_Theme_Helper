@@ -51,14 +51,36 @@ div.region-sidebar-first {
 	background: transparent;
 	box-shadow: none;
 }
-div.region-sidebar-first  h2.block-title:before{
-    content: "\f0e0";
-    font-family: FontAwesome;
-    padding-right: 5px;
+
+section#block-snazzisweets-base-snazzi-contact {
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    border-radius: 10px;
+}    
+section#block-snazzisweets-base-snazzi-contact div.snazzi-email-title,
+section#block-snazzisweets-base-snazzi-contact div.snazzi-phone-title {
+  font-size: 2.5rem;
 }
-div.region-sidebar-first  div.snazzi-email-link {
-	font-size: 2rem;
+section#block-snazzisweets-base-snazzi-contact div.snazzi-email-title:before{
+  content: "\f0e0";
+  font-family: FontAwesome;
+  padding-right: 5px;
 }
+section#block-snazzisweets-base-snazzi-contact div.snazzi-phone-title:before{
+  content: "\f095/\f10b";
+  font-family: FontAwesome;
+  padding-right: 10px;
+}
+section#block-snazzisweets-base-snazzi-contact div.snazzi-email-contents,
+section#block-snazzisweets-base-snazzi-contact div.snazzi-phone-contents,
+section#block-snazzisweets-base-snazzi-contact div.snazzi-location-contents {
+	font-size: 1.5rem;
+}
+section#block-snazzisweets-base-snazzi-contact div.snazzi-location-contents {
+  margin-top: 15px
+}
+
+
 ul#snazzi-cart{
 	float:right;
 }
@@ -87,6 +109,7 @@ h1.page-header {
 	color: #131516;
 	text-align: center;
 	font-size: 8rem;
+  
 }
 
 /*Menu items in navbar*/

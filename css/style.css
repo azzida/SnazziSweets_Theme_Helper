@@ -31,7 +31,8 @@ body.front article.node-page div.field-name-body p span.snazzi-brand {
 
 /*Slide homepage banner*/
 div.slick-slide div.slide__content {
-  outline: 5px solid black;
+  border: 5px solid black;
+  border-radius: 20px;
 }
 
 /*Set site color*/

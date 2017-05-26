@@ -1,50 +1,3 @@
-/**
- * Place your custom styles here.
- */
-
-/*Set the logo and brand sizes*/
-a.logo img{
-	width: 64px; 
-}
- 
-a.navbar-brand{
-	line-height: 64px;
-}
-
-/*Sets the line height of the top menu*/
-@media(min-width:1200px){
-	.navbar-nav li a{
-		line-height: 64px;
-	}
-}
-
-/*Set front page body*/
-body.front article.node-page {
-  text-align: center;
-}
-body.front article.node-page div.field-name-body p {
-  font-size: 2rem;
-}
-body.front article.node-page div.field-name-body p span.snazzi-brand {
-  font-size: 3rem;
-}
-
-/*Slide homepage banner*/
-div.slick-slide div.slide__content {
-  border: 5px solid black;
-  border-radius: 20px;
-}
-
-/*Set site color*/
-body {
-	bacground: #E3DBD0;
-	background: linear-gradient(#FFB6D4, #EAD0F4);
-}
-
-/*Set overall font size*/
-header, footer, .container {
-	font-size: 1.5rem;
-}
 
 /*Contact Information Block*/
 div.region-sidebar-first {
@@ -83,12 +36,8 @@ section#block-snazzisweets-base-snazzi-contact div.snazzi-location-contents {
 }
 
 
-ul#snazzi-cart{
-	float:right;
-}
 
-
-
+<<<<<<< Updated upstream
 /*Center the carousel images on homepage*/
 .carousel-inner img {
 	margin: auto;
@@ -144,6 +93,8 @@ li.snazzi-footer {
 	float: right;
 	font-size: 2rem;
 }
+=======
+>>>>>>> Stashed changes
 
 
 

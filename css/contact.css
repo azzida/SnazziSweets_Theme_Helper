@@ -1,17 +1,46 @@
 
 /*Contact Information Block*/
 div.region-sidebar-first {
-	background: transparent;
 	box-shadow: none;
 	border: none;
+	background-image: url(../images/sticky.png);
+    background-size: cover;
+    background-color: transparent;
+}
+section#block-snazzisweets-base-snazzi-contact {
+	padding: 30px 10px 30px 20px;
+}    
+
+@media (max-width: 992px) {
+	div.region-sidebar-first {
+		background: transparent;
+		background-image: none;
+		background-color: transparent;
+		padding: 0;
+	}
+	section#block-snazzisweets-base-snazzi-contact {
+		box-shadow: 0px 0px 10px black;
+		padding: 7px;
+		border-radius: 10px;
+		background-color: #F4F3C1;
+	}  
+	section#block-snazzisweets-base-snazzi-contact div.collapse {
+		padding: 4px;
+	}
+	
+	section#block-snazzisweets-base-snazzi-contact div#email-menu a:before{
+	  content: "\f0e0";
+	  font-family: FontAwesome;
+	  padding-right: 5px;
+	}
+	section#block-snazzisweets-base-snazzi-contact div#phone-menu a:before{
+	  content: "\f095/\f10b";
+	  font-family: FontAwesome;
+	  padding-right: 10px;
+	}
 }
 
-section#block-snazzisweets-base-snazzi-contact {
-    box-shadow: 0px 0px 10px black;
-	padding: 10px;
-	border-radius: 10px;
-	background-color: #F4F3C1;
-}    
+
 section#block-snazzisweets-base-snazzi-contact div.snazzi-email-title,
 section#block-snazzisweets-base-snazzi-contact div.snazzi-phone-title {
   font-size: 2.5rem;

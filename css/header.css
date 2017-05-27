@@ -7,12 +7,6 @@ a.navbar-brand{
 	line-height: 64px;
 }
 
-/*Sets the line height of the top menu*/
-@media(min-width:1200px){
-	.navbar-nav li a{
-		line-height: 64px;
-	}
-}
 
 ul#snazzi-cart{
 	float:right;
@@ -31,7 +25,13 @@ h1.page-header {
 	color: #131516;
 	text-align: center;
 	font-size: 8rem;
-  
+}
+
+/*Sets the line height of the top menu*/
+@media(max-width:992px){
+	h1.page-header {
+    font-size: 6rem;
+  }
 }
 
 /*Menu items in navbar*/

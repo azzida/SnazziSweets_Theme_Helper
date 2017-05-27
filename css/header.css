@@ -4,12 +4,41 @@ a.logo img{
 }
  
 a.navbar-brand{
-	line-height: 64px;
+  line-height: 4rem;
 }
-
+.navbar-nav li a{
+	line-height: 4rem;
+}
+@media(max-width:767px){
+  div.navbar-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  button.navbar-toggle {
+    background-color: #C1D1F3;
+    border: 2px solid #719CF2 !important;
+    font-size: 2rem;
+  }
+  button.btn-block {
+    border: 2px solid #F2EC3A;;
+    background-color: #F4F3C1;
+  }
+  ul.navbar-nav li {
+    text-align: center;
+  }
+  ul#snazzi-cart{
+    display: initial;
+    float: none;
+  }
+}
 
 ul#snazzi-cart{
 	float:right;
+}
+ul#snazzi-cart a:before {
+  content: "\f07a";
+  font-family: FontAwesome;
+  padding-right: 5px;
 }
 
 /*Main Navbar background and foreground color*/

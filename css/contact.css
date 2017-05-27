@@ -4,11 +4,12 @@ div.region-sidebar-first {
 	box-shadow: none;
 	border: none;
 	background-image: url(../images/sticky.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-color: transparent;
 }
 section#block-snazzisweets-base-snazzi-contact {
-	padding: 30px 10px 30px 20px;
+	padding-bottom: 70px;
 }    
 
 @media (max-width: 992px) {

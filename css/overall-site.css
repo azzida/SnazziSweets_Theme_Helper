@@ -9,5 +9,5 @@ body {
 
 /*Set overall font size*/
 header, footer, .container {
-	font-size: 1.5rem;
+  font-size: 2rem;
 }

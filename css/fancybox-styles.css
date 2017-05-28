@@ -8,7 +8,7 @@ div.pane-snazzi-comfy-cupcake div.view-content > div {
 @media(max-width:767px){
   div.pane-cookie-jar-banner img,
   div.pane-snazzi-comfy-cupcake img  {
-    width: 50%;
+    width: 85%;
     height: auto;
   }    
   div.pane-cookie-jar-banner div.view-content,

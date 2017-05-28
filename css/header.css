@@ -19,10 +19,6 @@ a.navbar-brand{
     border: 2px solid #719CF2 !important;
     font-size: 2rem;
   }
-  button.btn-block {
-    border: 2px solid #F2EC3A;;
-    background-color: #F4F3C1;
-  }
   ul.navbar-nav li {
     text-align: center;
   }

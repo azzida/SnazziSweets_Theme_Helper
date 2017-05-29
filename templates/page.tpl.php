@@ -20,8 +20,14 @@
           <span class="sr-only"><?php print t('Toggle navigation'); ?></span>
         </button>
       <?php endif; ?>
-			<div class="snazzi-cart">
-			<?php print l( t('<span class="fa fa-shopping-cart"></span><span id="snazzi-cart-text" class="snazzi-brand">Cart</span>'), 
+			<?php if (!empty($primary_nav) || !empty($variables['snazzi_cart']) || !empty($page['navigation'])): ?>
+      <div class="navbar-collapse collapse" id="navbar-collapse">
+        <nav role="navigation">
+          <?php if (!empty($primary_nav)): ?>
+            <?php print render($primary_nav); ?>
+          <?php endif; ?>
+          <div class="snazzi-cart-box-collapse">
+				<?php print l( t('<span class="fa fa-shopping-cart"></span><span id="snazzi-cart-text-in-collapse" class="snazzi-brand">Cart</span>'), 
 					'cart', 
 					array(
 						'attributes' => array(
@@ -30,30 +36,25 @@
 						'html' => TRUE,
 					)); ?>
 			</div>
-    </div>
-
-    <?php if (!empty($primary_nav) || !empty($variables['snazzi_cart']) || !empty($page['navigation'])): ?>
-      <div class="navbar-collapse collapse" id="navbar-collapse">
-        <nav role="navigation">
-          <?php if (!empty($primary_nav)): ?>
-            <?php print render($primary_nav); ?>
-          <?php endif; ?>
-          <div class="snazzi-cart">
-					<?php print l( t('<span class="fa fa-shopping-cart"></span><span id="snazzi-cart-text" class="snazzi-brand">Cart</span>'), 
-							'cart', 
-							array(
-								'attributes' => array(
-									'class' => array('snazzi-cart'), 
-								), 
-								'html' => TRUE,
-							)); ?>
-					</div>
           <?php if (!empty($page['navigation'])): ?>
             <?php print render($page['navigation']); ?>
           <?php endif; ?>
         </nav>
       </div>
     <?php endif; ?>
+			<div class="snazzi-cart-box">
+			<?php print l( t('<span class="fa fa-shopping-cart"></span><span id="snazzi-cart-text" class="snazzi-brand">Cart</span>'), 
+					'cart', 
+					array(
+						'attributes' => array(
+							'class' => array('snazzi-cart-link'), 
+						), 
+						'html' => TRUE,
+					)); ?>
+			</div>
+    </div>
+
+    
   </div>
 </header>
 

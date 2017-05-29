@@ -10,18 +10,30 @@ a.navbar-brand{
 	line-height: 4rem;
 }
 
+span.fa.fa-shopping-cart {
+	padding-right: 5px;
+}
+
+div.navbar-header {
+  display: flex;
+  justify-content: space-between;
+}
+div.snazzi-cart-box {
+	display: flex;
+}
+a.snazzi-cart-link {
+	display: flex;
+  align-items: center;
+}
+	
 /*Only show the cart in the collapsible menu*/
 @media(min-width:768px){
-	ul#snazzi-cart {
+	div.snazzi-cart-box-collapse {
 		display: none;
 	}
 }
-
 @media(max-width:767px){
-  div.navbar-header {
-    display: flex;
-    justify-content: space-between;
-  }
+  
   button.navbar-toggle {
     background-color: #C1D1F3;
     border: 2px solid #719CF2 !important;
@@ -30,13 +42,18 @@ a.navbar-brand{
   ul.navbar-nav li {
     text-align: center;
   }
-  a.snazzi-cart{
-    display: flex;
+	div.snazzi-cart-box {
+		display: flex;
     align-items: center;
-  }
+	}
 }
-@media(max-width:425px){
+@media(max-width:450px){
   span#snazzi-cart-text {
+	  display: none;
+	}
+}
+@media(max-width:325px){
+  div.snazzi-cart-box {
 	  display: none;
 	}
 }

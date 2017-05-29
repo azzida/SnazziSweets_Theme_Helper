@@ -41,7 +41,16 @@ section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-location 
   font-size: 2rem;
 }    
 
-@media (max-width: 992px) {
+@media (max-width: 992px) and (min-width: 768px){
+	section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-email,
+	section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-phone,
+	section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-location	{
+		padding: 6px 12px;
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 768px) {
 	div.region-sidebar-first {
 		background: transparent;
 		background-image: none;
@@ -83,6 +92,13 @@ section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-location 
     width: 60%;
     padding: 0.5rem;
   }  
+}
+@media (max-width: 450px) {
+	button.snazzi-email,
+	button.snazzi-phone,
+	button.snazzi-location {
+		font-size: 1.5rem !important; /*override aboves 2rem*/
+	}
 }
 
 

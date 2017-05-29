@@ -19,12 +19,17 @@
         <button type="button" class="navbar-toggle fa fa-list" data-toggle="collapse" data-target="#navbar-collapse">
           <span class="sr-only"><?php print t('Toggle navigation'); ?></span>
         </button>
-        <span class="visible-xs">
-        <?php if (!empty($variables['snazzi_cart'])): ?>
-          <?php print render($variables['snazzi_cart']); ?>
-        <?php endif; ?>
-        </span>
       <?php endif; ?>
+			<div class="snazzi-cart">
+			<?php print l( t('<span class="fa fa-shopping-cart"></span><span id="snazzi-cart-text" class="snazzi-brand">Cart</span>'), 
+					'cart', 
+					array(
+						'attributes' => array(
+							'class' => array('snazzi-cart'), 
+						), 
+						'html' => TRUE,
+					)); ?>
+			</div>
     </div>
 
     <?php if (!empty($primary_nav) || !empty($variables['snazzi_cart']) || !empty($page['navigation'])): ?>
@@ -33,9 +38,16 @@
           <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
           <?php endif; ?>
-          <?php if (!empty($variables['snazzi_cart'])): ?>
-            <?php print render($variables['snazzi_cart']); ?>
-          <?php endif; ?>
+          <div class="snazzi-cart">
+					<?php print l( t('<span class="fa fa-shopping-cart"></span><span id="snazzi-cart-text" class="snazzi-brand">Cart</span>'), 
+							'cart', 
+							array(
+								'attributes' => array(
+									'class' => array('snazzi-cart'), 
+								), 
+								'html' => TRUE,
+							)); ?>
+					</div>
           <?php if (!empty($page['navigation'])): ?>
             <?php print render($page['navigation']); ?>
           <?php endif; ?>

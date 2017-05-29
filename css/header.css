@@ -9,6 +9,14 @@ a.navbar-brand{
 .navbar-nav li a{
 	line-height: 4rem;
 }
+
+/*Only show the cart in the collapsible menu*/
+@media(min-width:768px){
+	ul#snazzi-cart {
+		display: none;
+	}
+}
+
 @media(max-width:767px){
   div.navbar-header {
     display: flex;
@@ -22,18 +30,23 @@ a.navbar-brand{
   ul.navbar-nav li {
     text-align: center;
   }
-  ul#snazzi-cart{
-    display: initial;
-    float: none;
+  a.snazzi-cart{
+    display: flex;
+    align-items: center;
   }
 }
+@media(max-width:425px){
+  span#snazzi-cart-text {
+	  display: none;
+	}
+}
+
+
 
 ul#snazzi-cart{
 	float:right;
 }
-ul#snazzi-cart a:before {
-  content: "\f07a";
-  font-family: FontAwesome;
+ul#snazzi-cart span.fa-shopping-cart {
   padding-right: 5px;
 }
 

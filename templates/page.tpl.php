@@ -26,35 +26,12 @@
           <?php if (!empty($primary_nav)): ?>
             <?php print render($primary_nav); ?>
           <?php endif; ?>
-          <div class="snazzi-cart-box-collapse">
-				<?php print l( t('<span class="fa fa-shopping-cart"></span><span id="snazzi-cart-text-in-collapse" class="snazzi-brand">Cart</span>'), 
-					'cart', 
-					array(
-						'attributes' => array(
-							'class' => array('snazzi-cart'), 
-						), 
-						'html' => TRUE,
-					)); ?>
-			</div>
           <?php if (!empty($page['navigation'])): ?>
             <?php print render($page['navigation']); ?>
           <?php endif; ?>
         </nav>
       </div>
     <?php endif; ?>
-			<div class="snazzi-cart-box">
-			<?php print l( t('<span class="fa fa-shopping-cart"></span><span id="snazzi-cart-text" class="snazzi-brand">Cart</span>'), 
-					'cart', 
-					array(
-						'attributes' => array(
-							'class' => array('snazzi-cart-link'), 
-						), 
-						'html' => TRUE,
-					)); ?>
-			</div>
-    </div>
-
-    
   </div>
 </header>
 

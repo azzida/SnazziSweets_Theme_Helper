@@ -1,0 +1,17 @@
+div#accordion div.panel,
+div#accordion div.panel div.panel-heading {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+div#accordion div.row.panel {
+	min-height: 200px;
+}
+div#accordion div.panel-collapse {
+	margin-top: 2rem;
+}
+div#accordion div.panel-collapse div.panel-body {
+	border-radius: 2rem;
+  border: 0.2rem solid #FF006E;
+  padding: 1rem 1.5rem;
+}

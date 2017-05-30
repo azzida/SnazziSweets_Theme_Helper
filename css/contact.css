@@ -5,13 +5,25 @@ div.region-sidebar-first {
 	border: none;
   background-color: transparent;
 }
+
 section#block-snazzisweets-base-snazzi-contact {
 	padding-bottom: 70px;
 }  
+section#block-snazzisweets-base-snazzi-contact div.panel,
+section#block-snazzisweets-base-snazzi-contact div.panel-group {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+} 
 section#block-snazzisweets-base-snazzi-contact div#email-menu,
 section#block-snazzisweets-base-snazzi-contact div#phone-menu,
 section#block-snazzisweets-base-snazzi-contact div#location-menu {
   font-size: 2.3rem;
+}
+section#block-snazzisweets-base-snazzi-contact div#email-menu a:hover,
+section#block-snazzisweets-base-snazzi-contact div#phone-menu a:hover,
+section#block-snazzisweets-base-snazzi-contact div#location-menu a:hover{
+  text-decoration: none;
 }
 section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-email {
   background-color: #F4F3C1;

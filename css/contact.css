@@ -32,14 +32,14 @@ section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-email {
   border-top-right-radius: 10rem;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
-  padding: 1rem 3rem;
+  padding: 1rem 4rem;
   font-size: 2rem;
 }
 section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-phone {
   background-color: #DFFEFF;
   border: 1px outset #8CFDFF;
   border-radius: 1rem;
-  padding: 1rem 3rem;
+  padding: 1rem 4rem;
   font-size: 2rem;
 }
 section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-location {
@@ -49,7 +49,7 @@ section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-location 
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 10rem;
   border-bottom-right-radius: 10rem;
-  padding: 1rem 3rem;
+  padding: 1rem 4rem;
   font-size: 2rem;
 }    
 
@@ -93,16 +93,13 @@ section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-location 
 	  padding-right: 10px;
 	}
   section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-email {
-    width: 60%;
-    padding: 0.5rem;
+    padding: 0.5rem 4rem;
   }
   section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-phone {
-    width: 60%;
-    padding: 0.5rem;
+    padding: 0.5rem 4rem;
   }
   section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-location {
-    width: 60%;
-    padding: 0.5rem;
+    padding: 0.5rem 4rem;
   }  
 }
 @media (max-width: 450px) {

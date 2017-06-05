@@ -1,17 +1,23 @@
-div#accordion div.panel,
-div#accordion div.panel div.panel-heading {
+div.view-cookie-jar-2-0 div.row {
 	background-color: transparent;
 	border: none;
 	box-shadow: none;
 }
-div#accordion div.row.panel {
+div.view-cookie-jar-2-0 div.row {
 	min-height: 200px;
 }
-div#accordion div.panel-collapse {
-	margin-top: 2rem;
-}
-div#accordion div.panel-collapse div.panel-body {
+div.view-cookie-jar-2-0 div.row div.col-xs-9 {
 	border-radius: 2rem;
   border: 0.2rem solid #FF006E;
   padding: 1rem 1.5rem;
+}
+div.view-cookie-jar-2-0 div.row div.col-xs-9 div.snazzi-title,
+div.view-cookie-jar-2-0 div.row div.col-xs-9 div.snazzi-price {
+	display: inline-block;
+	font-weight: 900;
+}
+div.view-cookie-jar-2-0 div.row div.col-xs-9 div.snazzi-title:after{
+  content: "\f178";
+  font-family: FontAwesome;
+  margin: 0 5px;
 }

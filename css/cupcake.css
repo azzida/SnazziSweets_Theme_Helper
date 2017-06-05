@@ -1,96 +1,23 @@
-
-/*COMMON Banner items on Comfy Cupcakes*/
-div.pane-snazzi-comfy-cupcake div.view-content > div {
+div.view-comfy-cupcake-2-0 div.row {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+div.view-comfy-cupcake-2-0 div.row {
+	min-height: 200px;
+}
+div.view-comfy-cupcake-2-0 div.row div.col-xs-9 {
+	border-radius: 2rem;
+  border: 0.2rem solid #FF006E;
+  padding: 1rem 1.5rem;
+}
+div.view-comfy-cupcake-2-0 div.row div.col-xs-9 div.snazzi-title,
+div.view-comfy-cupcake-2-0 div.row div.col-xs-9 div.snazzi-price {
 	display: inline-block;
-	padding: 0 5px 0 5px;
+	font-weight: 900;
 }
-@media(max-width:767px){
-  div.pane-snazzi-comfy-cupcake img  {
-    width: 85%;
-    height: auto;
-  }    
-  div.pane-snazzi-comfy-cupcake div.view-content  {
-     display:flex;
-  }  
-}
-    
-body.page-cupcakes div.pane-snazzi-comfy-cupcake {
-	text-align: center;
-}
-
-/*COMMON Fancybox hidden content for Cookies & Comfy Cupcake*/
-div.vertical-align {
-	display: flex;
-	align-items: center;
-}
-
-div.view-display-id-comfy_cupcake_contents div.view-content > div{
-	display: none;
-}
-
-/*COMMON Fancybox details when expanded*/
-/*START Flexbox overall layout*/
-div.fancybox-inner div.node-snazzi-cupcake {
-	display: inline-flex;
-  justify-content: space-between;
-}
-div.fancybox-inner div.node-snazzi-cupcake div.snazzi-details-row-title {
-	flex-basis: 15rem;
-}
-div.fancybox-inner div.node-snazzi-cupcake div.snazzi-details-row-body {
-	flex-basis: 60rem;
-}
-/*END Flexbox overall layout*/
-
-/*START Flexbox AddToCart layout*/
-div.fancybox-inner div.node-snazzi-cupcake div.snazzi-details-row-addtocart form > div {
-	display: flex;
-	flex-direction: column;
-}
-/*END Flexbox AddToCart layout*/
-
-/*START Flexbox Title layout*/
-div.fancybox-inner div.node-snazzi-cupcake div.snazzi-details-row-title div.snazzi-details-title h2  {
-	margin: 0;
-	font-size: 3rem;
-  text-align: center;
-}
-/*END Flexbox Title layout*/
-
-@media(max-width:767px){
-  div.fancybox-inner {
-    width: auto !important;
-    height: auto !important;
-  }
-  div.fancybox-inner div.node-snazzi-cupcake {
-    display: inline;
-  }
-  div.fancybox-inner div.node-snazzi-cupcake div.snazzi-details-row-title {
-    margin-bottom: 2rem;
-    float: left;
-    width: 100%;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  div.fancybox-inner div.node-snazzi-cupcake div.snazzi-details-row-body {
-    float: left;
-    width: 75%;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-  div.fancybox-inner div.node-snazzi-cupcake div.snazzi-details-row-body div.field-name-body {
-    padding-left: 3rem;
-  }  
-  div.fancybox-inner div.node-snazzi-cupcake div.snazzi-details-row-addtocart {
-    width: 25%;
-    float: left;
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-  }
+div.view-comfy-cupcake-2-0 div.row div.col-xs-9 div.snazzi-title:after{
+  content: "\f178";
+  font-family: FontAwesome;
+  margin: 0 5px;
 }

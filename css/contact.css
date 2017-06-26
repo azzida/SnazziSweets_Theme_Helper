@@ -14,6 +14,7 @@ section#block-snazzisweets-base-snazzi-contact div.panel-group {
 	background-color: transparent;
 	border: none;
 	box-shadow: none;
+	width: 24rem;
 } 
 section#block-snazzisweets-base-snazzi-contact div#email-menu,
 section#block-snazzisweets-base-snazzi-contact div#phone-menu,
@@ -24,6 +25,16 @@ section#block-snazzisweets-base-snazzi-contact div#email-menu a:hover,
 section#block-snazzisweets-base-snazzi-contact div#phone-menu a:hover,
 section#block-snazzisweets-base-snazzi-contact div#location-menu a:hover{
   text-decoration: none;
+}
+section#block-snazzisweets-base-snazzi-contact div#email-menu a:before{
+	content: "\f0e0";
+	font-family: FontAwesome;
+	padding-right: 5px;
+}
+section#block-snazzisweets-base-snazzi-contact div#phone-menu a:before{
+	content: "\f095/\f10b";
+	font-family: FontAwesome;
+	padding-right: 10px;
 }
 section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-email {
   background-color: #F4F3C1;

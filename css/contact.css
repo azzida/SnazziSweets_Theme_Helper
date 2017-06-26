@@ -108,6 +108,11 @@ section#block-snazzisweets-base-snazzi-contact button.btn-block.snazzi-location 
 	button.snazzi-location {
 		font-size: 1.5rem !important; /*override aboves 2rem*/
 	}
+	section#block-snazzisweets-base-snazzi-contact div#email-menu,
+	section#block-snazzisweets-base-snazzi-contact div#phone-menu,
+	section#block-snazzisweets-base-snazzi-contact div#location-menu {
+		font-size: 1.5rem;
+	}
 }
 
 

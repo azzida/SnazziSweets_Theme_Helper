@@ -1,10 +1,35 @@
 
 
 
-
 /*A Piece of Cake Styles*/
-div.view-snazzi-cake-carousel div.carousel-inner {
-	text-align: center;
+div.view-snazzi-cake-carousel div.views-row {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
 }
+div.view-snazzi-cake-carousel div.views-row {
+	min-height: 200px;
+}
+
+div.view-snazzi-cake-carousel div.views-row ul{
+	list-style: none;
+  display: inline-flex;
+}
+div.view-snazzi-cake-carousel div.views-row div.col-xs-9 {
+	border-radius: 2rem;
+  border: 0.2rem solid #FF006E;
+  padding: 1rem 1.5rem;
+}
+div.view-snazzi-cake-carousel div.views-row div.col-xs-9 div.snazzi-title,
+div.view-snazzi-cake-carousel div.views-row div.col-xs-9 div.snazzi-price {
+	display: inline-block;
+	font-weight: 900;
+}
+div.view-snazzi-cake-carousel div.views-row div.col-xs-9 div.snazzi-title:after{
+  content: "\f178";
+  font-family: FontAwesome;
+  margin: 0 5px;
+}
+
 
 

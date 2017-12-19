@@ -6,6 +6,11 @@ div.view-cookie-jar-2-0 div.views-row {
 div.view-cookie-jar-2-0 div.views-row {
 	min-height: 200px;
 }
+
+div.view-cookie-jar-2-0 div.views-row ul{
+	list-style: none;
+  display: inline-flex;
+}
 div.view-cookie-jar-2-0 div.views-row div.col-xs-9 {
 	border-radius: 2rem;
   border: 0.2rem solid #FF006E;

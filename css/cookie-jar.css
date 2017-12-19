@@ -1,23 +1,24 @@
-div.view-cookie-jar-2-0 div.row {
+div.view-cookie-jar-2-0 div.views-row {
 	background-color: transparent;
 	border: none;
 	box-shadow: none;
 }
-div.view-cookie-jar-2-0 div.row {
+div.view-cookie-jar-2-0 div.views-row {
 	min-height: 200px;
 }
-div.view-cookie-jar-2-0 div.row div.col-xs-9 {
+div.view-cookie-jar-2-0 div.views-row div.col-xs-9 {
 	border-radius: 2rem;
   border: 0.2rem solid #FF006E;
   padding: 1rem 1.5rem;
 }
-div.view-cookie-jar-2-0 div.row div.col-xs-9 div.snazzi-title,
-div.view-cookie-jar-2-0 div.row div.col-xs-9 div.snazzi-price {
+div.view-cookie-jar-2-0 div.views-row div.col-xs-9 div.snazzi-title,
+div.view-cookie-jar-2-0 div.views-row div.col-xs-9 div.snazzi-price {
 	display: inline-block;
 	font-weight: 900;
 }
-div.view-cookie-jar-2-0 div.row div.col-xs-9 div.snazzi-title:after{
+div.view-cookie-jar-2-0 div.views-row div.col-xs-9 div.snazzi-title:after{
   content: "\f178";
   font-family: FontAwesome;
   margin: 0 5px;
 }
+
